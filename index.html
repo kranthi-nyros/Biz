@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>BizCloud CCP.in</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/solid.js" integrity="sha384-+Ga2s7YBbhOD6nie0DzrZpJes+b2K1xkpKxTFFcx59QmVPaSA8c7pycsNaFwUK6l" crossorigin="anonymous"></script>
+      <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/fontawesome.js" integrity="sha384-7ox8Q2yzO/uWircfojVuCQOZl+ZZBg2D2J5nkpLqzH1HY0C1dHlTKIbpRz/LG23c" crossorigin="anonymous"></script>
+   </head>
+   <body>
+      <div class="container-fluid">
+      <div class="row">
+      <!--navbar-->
+      <div class="col-md-12 navbar">
+         <div class="navlist">
+            <!-- logo -->
+            <div class="col-md-6 logo">
+               <h2><b>BizCloud CCP</b></h2>
+            </div>
+            <!-- logo-end --> 
+            <!-- navlist -->
+            <div class="col-md-6 navlink">
+               <ul style="float:right;">
+                  <li><img src="assets/green.png"></li>
+                  <li> Available</li>
+                  <li class="user">
+                     <img src="assets/user.jpg">
+                  </li>
+               </ul>
+            </div>
+            <!-- navlist-end -->
+         </div>
+      </div>
+      <!--navbar-end-->
+      <!--second row-->
+      <div class="col-md-12 second-row">
+         <div class="col-md-10" style="display:inline-flex;">
+            <div class="user-icon">
+               <div>
+                  <img src="assets/user_icon.png">
+                  <div class="img-upload">
+                     <i class="fas fa-camera"></i>
+                  </div>
+               </div>
+               <div class="jack">
+                  <h1>Jack Rogers</h1>
+                  <p> Managing Director at Fruit & Co.</p>
+               </div>
+            </div>
+            <div class="call-edit">
+               <div class="call">
+                  <img src="assets/phone-white.png">
+               </div>
+               <div class="edit"> 
+                  <button>Edit information</button>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!--second row-end-->
+      <!--tabs-->
+      <div class="col-md-12 tabs">
+         <div class="col-md-10">
+            <div class="tab">
+               <button class="tablinks" onclick="openCity(event, 'Profile')">Profile</button>
+               <button class="tablinks" onclick="openCity(event, 'Activity')">Activity</button>
+               <button class="tablinks" onclick="openCity(event, 'Notes')">Notes</button>
+               <button class="tablinks" onclick="openCity(event, 'Recordings')">Recordings</button>
+            </div>
+            <div id="Profile" class="tabcontent">
+               <div class="tab1">
+                  <h1 style="font-family:Roboto;">
+                     <b>Contact information</b>
+                  </h1>
+                  <div class="cancel">
+                     <button>Cancel</button>
+                  </div>
+                  <div class="Saveall">
+                     <button>Save All</button>
+                  </div>
+               </div>
+               <div class="col-md-4">
+                  <div class="contactde">
+                     <h3>First Name:</h3>
+                     <input type="text" name="" placeholder="Manoj">
+                  </div>
+                  <div class="contactde">
+                     <h3>Phone Number:</h3>
+                     <input type="text" name="" placeholder="+16825836596">
+                  </div>
+                  <div class="contactde">
+                     <h3>Designation:</h3>
+                     <input type="text" name="" placeholder="Developer">
+                  </div>
+                  <div class="contactde">
+                     <h3>Other Phone:</h3>
+                     <input type="text" name="" placeholder="6825836596">
+                  </div>
+                  <div class="contactde">
+                     <h3>Contact Number:</h3>
+                     <input type="text" name="" placeholder="">
+                  </div>
+                  <div class="contactde">
+                     <h3>Skype ID:</h3>
+                     <input type="text" name="" placeholder="Manojkolla">
+                  </div>
+               </div>
+               <div class="col-md-4" style="margin-left: 150px;">
+                  <div class="contactde">
+                     <h3>Last Name:</h3>
+                     <input type="text" name="" placeholder="Kolla">
+                  </div>
+                  <div class="contactde">
+                     <h3>Email:</h3>
+                     <input type="text" name="" placeholder="manoj.kolla@bizcloudexperts.com">
+                  </div>
+                  <div class="contactde">
+                     <h3>Orginization:</h3>
+                     <input type="text" name="" placeholder="BizCloud Experts">
+                  </div>
+                  <div class="contactde">
+                     <h3>Secondry Email:</h3>
+                     <input type="text" name="" placeholder="manojkumar.kolla@gmail.com">
+                  </div>
+                  <div class="contactde">
+                     <h3>Date of Birth:</h3>
+                     <input type="text" name="" placeholder="10/23/1992">
+                  </div>
+                  <div class="contactde">
+                     <h3>Twitter Handle:</h3>
+                     <input type="text" name="" placeholder="kolla">
+                  </div>
+               </div>
+            </div>
+            <div id="Activity" class="tabcontent">
+               <h3>Hello2</h3>
+            </div>
+            <div id="Notes" class="tabcontent">
+               <h3>Hello3</h3>
+            </div>
+            <div id="Recordings" class="tabcontent">
+               <h3>Hello4</h3>
+            </div>
+         </div>
+      </div>
+      <!--tabs end-->
+      <!--footer-->
+      <div class="col-md-12 footer">
+         <div class="col-md-6"> 
+            <button><i class="fas fa-users"></i></button> 
+         </div>
+         <div class="col-md-6" style="display:inline-flex;">
+            <div class="social-icon">
+               <img src="assets/chat.png">
+            </div>
+            <div class="social-icon">
+               <i class="fas fa-envelope" style="margin-top: 13px;"></i>
+            </div>
+            <div class="social-icon">
+               <img src="assets/phone.png">
+            </div>
+         </div>
+      </div>
+      <script type="text/javascript" src="script.js"></script>
+   </body>
+</html>
